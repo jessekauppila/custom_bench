@@ -12,39 +12,37 @@ export default function Home() {
       <div>
         <h2>How to use this tool:</h2>
         <p>
-          Step 1: Enter your desired nook's bench lengths and widths.
+          Step 1: Enter the location of windows measuring from the
+          corner of the room to closest edge of the window frame. Then
+          measure from the floor to the bottom of the window frame.
         </p>
         <p>
           Step 2: Measure the height and width of your baseboard.
           Enter that to allow the benches to conform to the baseboard
-          and sit flush with your walls.
+          and sit flush with the walls of your home.
         </p>
         <p>
-          Step 3: Enter the location of windows measuring from the
-          corner and the floor to the rim of the window.
-        </p>
-        <p>
-          Step 4: Adjust the height of the benches to accommodate for
+          Step 3: Enter your desired bench lengths and widths. Adjust
+          the height of the benches to accommodate for the location of
           the windows.
         </p>
       </div>
 
-      <main style={{ height: '100vh', width: '90%' }}>
-        <iframe
-          id="sdv-iframe"
-          width="100%"
-          height="100%"
-          src="https://www.shapediver.com/app/iframe/bench-v2-with-walls-and-windows?primaryColor=%239B7054&secondaryColor=%2368624D&surfaceColor=%23FFFFFF&backgroundColor=%233A3A3A&showControls=1&showZoomButton=1&showFullscreenButton=1&showToggleControlsButton=1&hideDataOutputsIframe=1&hideAttributeVisualizationIframe=1&parametersDisable=1&parametersValidation=0"
-          referrerpolicy="origin"
-          allowfullscreen
-          style={{
-            flex: 1,
-            overflowX: 'hidden',
-            overflowY: 'hidden',
-            borderWidth: '0',
-          }}
-        ></iframe>
-      </main>
+      <div class="responsive-iframe-container"></div>
+      <iframe
+        id="sdv-iframe"
+        width="100%"
+        height="100%"
+        src="https://www.shapediver.com/app/iframe/bench-v3-with-walls-and-windows?primaryColor=%23C3A977&secondaryColor=%23393A45&surfaceColor=%23FFFFFF&backgroundColor=%23F8F8F8&showControls=1&showZoomButton=1&showFullscreenButton=1&showToggleControlsButton=1&hideDataOutputsIframe=1&hideAttributeVisualizationIframe=1&parametersDisable=1&parametersValidation=0"
+        referrerpolicy="origin"
+        allowfullscreen
+        style={{
+          flex: 1,
+          overflowX: 'hidden',
+          overflowY: 'hidden',
+          borderWidth: '0',
+        }}
+      ></iframe>
 
       <footer>
         <a
