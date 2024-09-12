@@ -9,12 +9,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <div>
+        <h2>How to use this tool:</h2>
+        <p>
+          Step 1: Measure the distance of your windows from the corner
+          of the room and the floor. Enter in the tool.
+        </p>
+        <p>
+          Step 2: Measure the height and width of your baseboard.
+          Enter into the tool.
+        </p>
+        <p>Step 3: Enter your desired bench lengths and widths.</p>
+      </div>
+
       <main style={{ height: '100vh', width: '90%' }}>
         <iframe
           id="sdv-iframe"
           width="100%"
           height="100%"
-          src="https://www.shapediver.com/app/iframe/benche?primaryColor=%23317DD4&secondaryColor=%23393A45&surfaceColor=%23FFFFFF&backgroundColor=%23F8F8F8&showControls=1&showZoomButton=1&showFullscreenButton=1&showToggleControlsButton=1&hideDataOutputsIframe=1&hideAttributeVisualizationIframe=1&parametersDisable=1&parametersValidation=0"
+          src="https://www.shapediver.com/app/iframe/bench-v2-with-walls-and-windows?primaryColor=%239B7054&secondaryColor=%2368624D&surfaceColor=%23FFFFFF&backgroundColor=%233A3A3A&showControls=1&showZoomButton=1&showFullscreenButton=1&showToggleControlsButton=1&hideDataOutputsIframe=1&hideAttributeVisualizationIframe=1&parametersDisable=1&parametersValidation=0"
           referrerpolicy="origin"
           allowfullscreen
           style={{
