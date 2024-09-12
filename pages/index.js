@@ -5,21 +5,23 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Custom Bench</title>
+        <title>Custom Nook</title>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <div>
         <h2>How to use this tool:</h2>
         <p>
-          Step 1: Measure the distance of your windows from the corner
-          of the room and the floor. Enter in the tool.
+          Step 1: Enter your desired nook's bench lengths and widths.
         </p>
         <p>
           Step 2: Measure the height and width of your baseboard.
           Enter into the tool.
         </p>
-        <p>Step 3: Enter your desired bench lengths and widths.</p>
+        <p>
+          Step 3: Enter the location of windows measuring from the
+          corner and the floor to the rim of the window.
+        </p>
       </div>
 
       <main style={{ height: '100vh', width: '90%' }}>
