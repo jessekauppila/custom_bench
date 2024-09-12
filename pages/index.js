@@ -16,11 +16,16 @@ export default function Home() {
         </p>
         <p>
           Step 2: Measure the height and width of your baseboard.
-          Enter into the tool.
+          Enter that to allow the benches to conform to the baseboard
+          and sit flush with your walls.
         </p>
         <p>
           Step 3: Enter the location of windows measuring from the
           corner and the floor to the rim of the window.
+        </p>
+        <p>
+          Step 4: Adjust the height of the benches to accommodate for
+          the windows.
         </p>
       </div>
 
